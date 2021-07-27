@@ -49,6 +49,7 @@ nav ul
 nav li
 {
     margin-right: 4em;
+    font-size: 0.9em;
 }
 nav a
 {
@@ -59,4 +60,35 @@ h1
 {
     font-size: 150%;
     font-weight: bold;
+}
+form p i
+{
+    color:black;
+    background-color: #F2F2F2;
+}
+
+/* Filtres */
+.filtres
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    font-size: 1.5em;
+}
+i
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.filtres a
+{
+    text-decoration: none;
+    color: black;
+    border: 0.15em #F2F2F2 solid;
+    border-radius: 30px;
+    padding: 10px 10px;
 }
