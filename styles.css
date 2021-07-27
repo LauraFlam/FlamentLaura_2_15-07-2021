@@ -8,4 +8,30 @@
 body
 {
     font-family: 'Raleway';
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Pied de page */
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    font-size: small;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.contenu-footer
+{
+    width: 50%;
+    line-height: 200%;
+}
+ul
+{
+    list-style: none;
+}
+em
+{
+    font-weight: bold;
+    font-style:normal
 }
