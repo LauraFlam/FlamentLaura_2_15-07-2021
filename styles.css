@@ -12,7 +12,7 @@ body
     box-sizing: border-box;
 }
 
-/* Pied de page */
+/* Footer */
 footer
 {
     background-color: #F2F2F2;
@@ -34,4 +34,29 @@ em
 {
     font-weight: bold;
     font-style:normal
+}
+
+/* Header */
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul
+{
+    display: flex;
+}
+nav li
+{
+    margin-right: 4em;
+}
+nav a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+h1
+{
+    font-size: 150%;
+    font-weight: bold;
 }
