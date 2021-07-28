@@ -61,11 +61,14 @@ h1
     font-size: 150%;
     font-weight: bold;
 }
+
 /* Formulaire */
 form p i
 {
     color:black;
     background-color: #F2F2F2;
+    padding: 1em;
+    
 }
 .search
 {
@@ -98,15 +101,18 @@ form p i
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border-radius: 30px;
+    border-radius: 50px;
+    padding: 0.7em;
+    margin-right: 0.5em;
+
 }
 .filtres a
 {
     text-decoration: none;
     color: black;
     border: 0.15em #F2F2F2 solid;
-    padding: 10px 10px;
-    border-radius: 30px;
+    padding: 0.5em;
+    border-radius: 25px;
 }
 .filtres a:hover
 {
@@ -119,4 +125,10 @@ form p i
     padding: 0.25em 0.5em 0.25em 0.5em;
     border-radius: 50px;
     margin-right: 0.75em;
+}
+
+/* Corps */
+#hébergements, aside
+{
+    background-color: #F2F2F2;
 }
