@@ -61,10 +61,27 @@ h1
     font-size: 150%;
     font-weight: bold;
 }
+/* Formulaire */
 form p i
 {
     color:black;
     background-color: #F2F2F2;
+}
+.search
+{
+    border: 0.1em #F2F2F2 solid;
+}
+.bouton
+{
+    background-color: #0065FC;
+    color: white;
+    border: 0.1em #0065FC solid;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.search, .bouton
+{
+    padding: 8px;
 }
 
 /* Filtres */
@@ -74,14 +91,13 @@ form p i
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    font-size: 1.5em;
+    width: 70%;
+    font-size: 1.2em;
 }
-i
+.filtres i
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    padding: 10px 10px;
     border-radius: 30px;
 }
 .filtres a
@@ -89,6 +105,18 @@ i
     text-decoration: none;
     color: black;
     border: 0.15em #F2F2F2 solid;
-    border-radius: 30px;
     padding: 10px 10px;
+    border-radius: 30px;
+}
+.filtres a:hover
+{
+    text-decoration: underline;
+}
+.info i
+{
+    color: #0065FC;
+    border: 0.1em #F2F2F2 solid;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    border-radius: 50px;
+    margin-right: 0.75em;
 }
