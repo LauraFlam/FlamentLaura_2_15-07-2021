@@ -1,10 +1,5 @@
-@font-face
-{
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
 body
 {
     font-family: 'Raleway';
@@ -63,11 +58,14 @@ h1
 }
 
 /* Formulaire */
-form p i
+form div i
 {
     color:black;
     background-color: #F2F2F2;
-    padding: 1em;
+    padding: 0.57em 0.8em 0.7em 0.8em;
+    border-radius: 15px 0 0 15px;
+    position: relative;
+    right: -10px;
     
 }
 .search
@@ -80,11 +78,15 @@ form p i
     color: white;
     border: 0.1em #0065FC solid;
     font-family: 'Raleway';
-    font-weight: bold;
+    font-weight: 600;
+    padding: 0;
+    position: relative;
+    border-radius: 0 15px 15px 0;
+    left: -10px;
 }
 .search, .bouton
 {
-    padding: 8px;
+   padding: 0.7em;
 }
 
 /* Filtres */
@@ -97,21 +99,19 @@ form p i
     width: 70%;
     font-size: 1.2em;
 }
-.filtres i
-{
+.filtres i {
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50px;
     padding: 0.7em;
     margin-right: 0.5em;
-
+    margin-left: -2%;
 }
-.filtres a
-{
+.filtres a {
     text-decoration: none;
     color: black;
     border: 0.15em #F2F2F2 solid;
-    padding: 0.5em;
+    padding: 0.5em 0.3em 0.5em 0em;
     border-radius: 25px;
 }
 .filtres a:hover
