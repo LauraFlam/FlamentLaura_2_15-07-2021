@@ -5,6 +5,8 @@ body
     font-family: 'Raleway';
     margin: 0;
     box-sizing: border-box;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 /* Footer */
@@ -50,6 +52,11 @@ nav a
 {
     text-decoration: none;
     color: #0065FC;
+    font-weight: bold;
+}
+nav a:hover
+{
+    color: black;
 }
 h1
 {
@@ -58,19 +65,26 @@ h1
 }
 
 /* Formulaire */
+form
+{
+    margin-bottom: 1em;
+}
 form div i
 {
     color:black;
     background-color: #F2F2F2;
-    padding: 0.57em 0.8em 0.7em 0.8em;
+    padding: 0.9em 1.2em;
     border-radius: 15px 0 0 15px;
     position: relative;
     right: -10px;
+    bottom: -1px;
+    
     
 }
 .search
 {
     border: 0.1em #F2F2F2 solid;
+    font-weight: 600;
 }
 .bouton
 {
@@ -86,7 +100,7 @@ form div i
 }
 .search, .bouton
 {
-   padding: 0.7em;
+   padding: 1em;
 }
 
 /* Filtres */
@@ -128,7 +142,32 @@ form div i
 }
 
 /* Corps */
+.hébergements
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
 #hébergements, aside
 {
     background-color: #F2F2F2;
+    border-radius: 20px;
+}
+aside
+{
+    width: 40%;
+}
+.hébergements img 
+{
+	width: 70%;
+	height: 70%;
+}
+article
+{
+    border: 0.5em white solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px lightgrey;
+    background-color: white;
+    width: 50%;
+    display: flex;
 }
