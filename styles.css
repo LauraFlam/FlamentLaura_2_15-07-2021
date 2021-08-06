@@ -229,16 +229,16 @@ h4
     border-radius: 1em 1em 1em 1em;
     margin-top: 1%;
 }
-#hébergements a, aside a
+#hébergements 
+{
+    width: 68%;
+}
+#hébergements a
 {
     text-decoration: none;
     color: black;
     width: 30%;
     margin: 0.7em 0.2em
-}
-#hébergements 
-{
-    width: 68%;
 }
 .lieux
 {
@@ -287,47 +287,66 @@ h4
 }
 .afficher
 {
-    margin-left: 2.5em;
+    margin-left: 2em;
     padding-bottom: 3em;
     font-weight: bold;
-    margin-top: -1em;
+    margin-top: -0.5em;
 }
 
 
 /* Populaires */
 aside 
 {
-    width: 25%;
-    padding: 0.6em;
+    width: 30%;
 }
-.populaires 
+.populaires
 {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+aside h2
+{
+    margin: 1.7em 1em;
 }
 .fa-chart-line 
 {
     float: right;
     font-size: 0.8em;
 }
-.populaires article {
+.pop {
     display: flex;
     background-color: white;
     border-radius: 1em;
     box-shadow: 0px 0px 10px lightgrey;
+    margin-top: 2em;
 }
-.populaires img {
+aside a
+{
+    text-decoration: none;
+    color: black;
+}
+.populaires img 
+{
     object-fit: cover;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    padding: 5px;
-    width: 100%;
-    height: 120px;
+    padding: 0.3em;
+    width: 45%;
+    height: 8em;
 }
-.populaires article div {
+.description2
+{
+    font-size: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     flex-direction: column;
-    font-size: 0.7em;
-    margin: 2%;
+}
+.description2 span 
+{
+    padding-top: 2em;
+}
+.description2 p
+{
+    margin-top: -0.9em;
 }
