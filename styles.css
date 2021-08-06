@@ -147,7 +147,7 @@ form div i
     margin-top: 5%;
     margin-bottom: 5%;
 }
-h3 
+h4 
 {
     margin-left: 3%;
 }
@@ -233,12 +233,14 @@ h3
 {
     text-decoration: none;
     color: black;
+    width: 30%;
+    margin: 0.7em 0.2em
 }
 #hébergements 
 {
-    width: 73%;
+    width: 68%;
 }
-#hébergements div 
+.lieux
 {
     display: flex;
     flex-direction: row;
@@ -246,35 +248,27 @@ h3
     justify-content: space-between;
     align-content: space-around;
     margin: 2%;
+    padding: 1%;
 }
-#hébergements article 
+.photo 
 {
     background-color: white;
     border-radius: 1em;
-    border: white solid 0.3em;
+    padding: 2%;
     box-shadow: 0px 0px 10px lightgrey;
 }
 #hébergements img 
 {   
+    object-fit: cover;
     width: 100%;
-    height: 190px; 
+    height: 8em; 
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;  
-}
-.photo div 
-{
-    padding-left: 2%;
-    font-size: 0.7em;
-}
-#hébergements span 
-{
-    padding-left: 2%;
-    padding-bottom: 2%;
 }
 #hébergements h2 
 {
     margin-top: 5%;
-    margin-bottom: 4%;
+    margin-left: 3%;
 }
 .fa-star
 {
@@ -284,6 +278,21 @@ h3
 {
     color: #F2F2F2;
 }
+.description {
+    flex-direction: column;
+    font-size: 0.8em;
+    padding-left: 0.7em;
+    line-height: 0.5em;
+    padding-bottom: 0.5em;
+}
+.afficher
+{
+    margin-left: 2.5em;
+    padding-bottom: 3em;
+    font-weight: bold;
+    margin-top: -1em;
+}
+
 
 /* Populaires */
 aside 
@@ -309,6 +318,7 @@ aside
     box-shadow: 0px 0px 10px lightgrey;
 }
 .populaires img {
+    object-fit: cover;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     padding: 5px;
