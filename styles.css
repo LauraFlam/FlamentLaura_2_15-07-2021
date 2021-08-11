@@ -367,7 +367,7 @@ aside a
     margin-top: -0.9em;
 }
 
-@media screen and (max-width: 480px) 
+@media only screen and (max-width: 480px) 
 {
     body {
         font-family: 'Raleway';
@@ -396,11 +396,11 @@ aside a
         font-weight: 600;
         padding: 1.5em;
     }
-    ul {
+    header ul {
         padding: 0;
         width: 100%;
     }
-    nav li {
+    header nav li {
         width: 50%;
         margin: 0;
     }
@@ -495,4 +495,61 @@ aside a
         width: 100%;
     }
 
+}
+
+@media screen and (min-width:480px) and (max-width: 768px)
+{
+    .menu1 {
+        margin-left: 15em;
+    }
+    .filtres {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .filtre_eco {
+        margin-right: 1.5em;
+        padding-top: 1em;
+    }
+    .filtres3 {
+        margin: 1em;
+    }
+    .hébergements {
+        flex-direction: column-reverse;
+    }
+     aside {
+        width: 100%;
+        margin-bottom: 3em;
+        padding-bottom: 2em;
+    }
+    .pop {
+        width: 80%;
+        margin-left: 3em;
+    }
+    #hébergements {
+        width: 100%;
+    }
+    #hébergements a {
+        width: 45%;
+    }
+    #activités {
+        margin-top: 3em;
+    }
+    #activités h2 {
+        margin-bottom: 5%;
+    }
+    .activités {
+        display: flex;
+        flex-direction: column;
+    }
+    .calanques, .vieuxport, .pomègues_frioul, .notre_dame_longchamp{
+        width: 65%;
+        margin-bottom: 3em;
+        margin-left: 8em;
+    }
+    .pomègues, .notre_dame {
+        margin-bottom: 3em;
+    }
+    .activités img {
+        height: 200px;
+    }
 }
