@@ -2,9 +2,9 @@
 
 body {
     font-family: 'Raleway';
-    margin: 0;
     box-sizing: border-box;
     margin: 0 1em;
+    max-width: 1400px;
 }
 
 /* Header */
@@ -333,7 +333,7 @@ em {
         margin: 1em;
     }
     nav {
-        font-size: x-large;
+        font-size: larger;
         width: 100%;
     }
     .menu1 {
@@ -342,7 +342,7 @@ em {
     }
     .menu2 {
         order: 0;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: 600;
         padding: 1.5em;
     }
@@ -354,14 +354,19 @@ em {
         width: 50%;
         margin: 0;
     }
+    .menu1 a {
+        font-weight: normal;
+        color: black;
+    }
+    .menu1 a:hover {
+        color: #0065FC;
+    }
     .menu1 li {
         border-bottom: 3px solid #F2F2F2;
         padding-bottom: 0.5em;
         text-align: center;
-        font-weight: lighter;
     }
     .menu1 li:hover {
-        color: #0065FC;
         border-bottom: 3px solid #0065FC;
     }
     .titre {
@@ -546,5 +551,13 @@ em {
     }
     .pomègues, .notre_dame {
         margin-bottom: 3em;
+    }
+}
+
+@media only screen and (min-width: 1400px)
+{
+    body {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
