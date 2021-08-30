@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
-
 body {
     font-family: 'Raleway';
     box-sizing: border-box;
@@ -7,57 +6,71 @@ body {
     max-width: 1400px;
 }
 
+
 /* Header */
+
 header {
     display: flex;
     justify-content: space-between;
 }
+
 nav ul {
     display: flex;
 }
+
 nav li {
     margin-right: 4em;
     font-size: 0.9em;
 }
+
 .menu1 {
     display: flex;
     margin-left: 50em;
 }
+
 .menu2 {
     order: 3;
     font-size: 0.9em;
     padding-top: 1.1em;
 }
+
 header a {
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
 }
+
 header a:hover {
     color: black;
 }
+
 h1 {
     font-size: 150%;
     font-weight: bold;
 }
 
+
 /* Formulaire */
+
 form {
     margin-bottom: 1em;
 }
+
 .icone_location {
-    color:black;
+    color: black;
     background-color: #F2F2F2;
     padding: 0.84em 1.5em;
     border-radius: 15px 0 0 15px;
     position: relative;
     right: -4px;
-    bottom: -1px; 
+    bottom: -1px;
 }
+
 .search {
     border: 0.15em #F2F2F2 solid;
     font-weight: 600;
 }
+
 .bouton {
     background-color: #0065FC;
     color: white;
@@ -69,14 +82,19 @@ form {
     border-radius: 0 15px 15px 0;
     left: -10px;
 }
+
 .icone_loupe {
     display: none;
 }
-.search, .bouton {
-   padding: 1em;
+
+.search,
+.bouton {
+    padding: 1em;
 }
 
+
 /* Filtres */
+
 .filtres {
     font-weight: bold;
     display: flex;
@@ -85,12 +103,15 @@ form {
     width: 67%;
     font-size: 1em;
 }
+
 .filtres2 {
     display: flex;
 }
+
 .filtre_eco {
     padding-right: 2.3em;
 }
+
 .filtres i {
     color: #0065FC;
     background-color: #DEEBFF;
@@ -99,6 +120,7 @@ form {
     margin-right: 0.5em;
     margin-left: -2%;
 }
+
 .filtres a {
     text-decoration: none;
     color: black;
@@ -106,9 +128,11 @@ form {
     padding: 0.5em 1em 0.5em 0em;
     border-radius: 25px;
 }
+
 .filtres a:hover {
     text-decoration: underline;
 }
+
 .info i {
     color: #0065FC;
     border: 0.1em #F2F2F2 solid;
@@ -116,29 +140,37 @@ form {
     border-radius: 50px;
     margin-right: 0.75em;
 }
+
 .info {
     margin: 1em 0;
 }
 
-/* Hébergements */
-.hébergements {
+
+/* hebergements */
+
+.hebergements {
     display: flex;
     justify-content: space-between;
 }
-#hébergements, aside {
+
+#hebergements,
+aside {
     background-color: #F2F2F2;
     border-radius: 1em 1em 1em 1em;
     margin-top: 1%;
 }
-#hébergements {
+
+#hebergements {
     width: 68%;
 }
-#hébergements a {
+
+#hebergements a {
     text-decoration: none;
     color: black;
     width: 30%;
     margin: 0.7em 0.2em
 }
+
 .lieux {
     display: flex;
     flex-direction: row;
@@ -148,29 +180,35 @@ form {
     margin: 2%;
     padding: 1%;
 }
+
 .photo {
     background-color: white;
     border-radius: 1em;
     padding: 2%;
     box-shadow: 0px 0px 10px lightgrey;
 }
-#hébergements img {   
+
+#hebergements img {
     object-fit: cover;
     width: 100%;
-    height: 8em; 
+    height: 8em;
     border-top-left-radius: 1em;
-    border-top-right-radius: 1em;  
+    border-top-right-radius: 1em;
 }
-#hébergements h2 {
+
+#hebergements h2 {
     margin-top: 5%;
     margin-left: 3%;
 }
+
 .fa-star {
     color: #0065FC;
 }
+
 .greystar {
     color: #F2F2F2;
 }
+
 .description {
     flex-direction: column;
     font-size: 0.8em;
@@ -178,6 +216,7 @@ form {
     line-height: 0.5em;
     padding-bottom: 0.5em;
 }
+
 .afficher {
     margin-left: 2em;
     padding-bottom: 3em;
@@ -185,22 +224,28 @@ form {
     margin-top: -0.5em;
 }
 
+
 /* Populaires */
+
 aside {
     width: 30%;
 }
+
 .populaires {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 1em;
 }
+
 aside h2 {
     margin: 1.7em 1em;
 }
+
 .fa-chart-line {
     float: right;
     font-size: 0.8em;
 }
+
 .pop {
     display: flex;
     background-color: white;
@@ -208,10 +253,12 @@ aside h2 {
     box-shadow: 0px 0px 10px lightgrey;
     margin-top: 2em;
 }
+
 aside a {
     text-decoration: none;
     color: black;
 }
+
 .pop img {
     object-fit: cover;
     border-top-left-radius: 1em;
@@ -220,6 +267,7 @@ aside a {
     width: 37%;
     height: 8em;
 }
+
 .description2 {
     font-size: 0.8em;
     padding-left: 1em;
@@ -227,75 +275,105 @@ aside a {
     display: flex;
     flex-direction: column;
 }
+
 .description2 span {
     padding-top: 2em;
 }
+
 .description2 p {
     margin-top: -0.9em;
 }
 
-/* Activités */
-#activités {
+
+/* activites */
+
+#activites {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 h4 {
     margin-left: 3%;
 }
-.activités a {
+
+.activites a {
     text-decoration: none;
     color: black;
 }
-.activités {
+
+.activites {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
 }
-.pomègues_frioul, .notre_dame_longchamp {
+
+.pomegues_frioul,
+.notre_dame_longchamp {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 24%;
 }
-.calanques, .vieuxport {
+
+.calanques,
+.vieuxport {
     width: 24%;
 }
-.activités img {
+
+.activites img {
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
-.pomègues_frioul, .notre_dame_longchamp {
+
+.pomegues_frioul,
+.notre_dame_longchamp {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 24%;
 }
-.calanques, .vieux_port {
-      width: 24%;
+
+.calanques,
+.vieux_port {
+    width: 24%;
 }
-.vieuxport_photo, .calanques_photo, .pomègues_photo, .notre_dame_photo, .longchamp_photo, .frioul_photo {
+
+.vieuxport_photo,
+.calanques_photo,
+.pomegues_photo,
+.notre_dame_photo,
+.longchamp_photo,
+.frioul_photo {
     border: 1px solid lightgrey;
     border-radius: 15px;
     box-shadow: 5px 5px 10px lightgrey;
 }
-.vieuxport_photo img, .calanques_photo img {
+
+.vieuxport_photo img,
+.calanques_photo img {
     width: 100%;
     height: 400px;
-} 
-.pomègues_photo img {
+}
+
+.pomegues_photo img {
     width: 100%;
     height: 160px;
 }
-.notre_dame_photo img, .longchamp_photo img {
+
+.notre_dame_photo img,
+.longchamp_photo img {
     width: 100%;
     height: 140px;
 }
+
 .frioul_photo img {
     width: 100%;
     height: 120px;
 }
 
+
 /* Footer */
+
 footer {
     background-color: #F2F2F2;
     display: flex;
@@ -303,26 +381,27 @@ footer {
     padding: 1% 0;
     margin: 0 -1.22em;
 }
+
 .contenu_footer {
     width: 50%;
     line-height: 200%;
 }
+
 ul {
     list-style: none;
 }
+
 em {
     font-weight: bold;
-    font-style:normal
+    font-style: normal
 }
 
-@media only screen and (max-width: 600px) 
-{
+@media only screen and (max-width: 600px) {
     body {
         font-family: 'Raleway';
         margin: 0;
         box-sizing: border-box;
     }
-
     /* Header */
     header {
         display: flex;
@@ -372,7 +451,6 @@ em {
     .titre {
         margin: 1em;
     }
-
     /* Formulaire */
     form {
         width: 94%;
@@ -395,7 +473,6 @@ em {
         left: -15px;
         margin-top: -2.8em;
     }
-
     /* Filtres */
     .filtres {
         display: block;
@@ -406,11 +483,11 @@ em {
     .filtres2 {
         margin-left: -0.3em;
     }
-    .filtres3, .filtre_eco {
+    .filtres3,
+    .filtre_eco {
         margin-bottom: 1em;
         font-size: larger;
     }
-
     .info {
         margin: 2em 1em;
     }
@@ -422,18 +499,16 @@ em {
         width: 88%;
         display: inline-block;
     }
-
-    /* Hébergements */
-    .hébergements {
+    /* hebergements */
+    .hebergements {
         flex-direction: column-reverse;
     }
-    #hébergements {
+    #hebergements {
         background-color: white;
         width: 89%;
         margin: 1em;
-
     }
-    #hébergements a {
+    #hebergements a {
         width: 100%;
     }
     .lieux {
@@ -444,7 +519,6 @@ em {
         margin: 1em 1em 2em 1em;
         padding: 0;
     }
-
     /* Populaires */
     aside {
         width: 100%;
@@ -453,42 +527,44 @@ em {
     .pop img {
         width: 35%;
     }
-    #activités {
+    #activites {
         margin: 1em;
     }
-    .activités {
+    .activites {
         flex-direction: column;
     }
-    .calanques, .vieuxport, .pomègues_frioul, .notre_dame_longchamp{
+    .calanques,
+    .vieuxport,
+    .pomegues_frioul,
+    .notre_dame_longchamp {
         width: 100%;
         margin-bottom: 2em
     }
-    .pomègues, .notre_dame {
+    .pomegues,
+    .notre_dame {
         margin-bottom: 2em;
     }
-    .activités img {
+    .activites img {
         height: 135px;
     }
-
     /* Footer */
     footer {
         flex-direction: column;
         font-size: 1em;
         margin: 0;
     }
+    /*
     .contenu_footer {
         width: 100%;
     }
-
+    */
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px)
-{
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* Header */
     .menu1 {
         margin-left: 15em;
     }
-
     /* Filtres */
     .filtres {
         width: 100%;
@@ -501,18 +577,16 @@ em {
     .filtres3 {
         margin: 1em;
     }
-
-    /* Hébergements */
-    .hébergements {
+    /* hebergements */
+    .hebergements {
         flex-direction: column-reverse;
     }
-    #hébergements {
+    #hebergements {
         width: 100%;
     }
-    #hébergements a {
+    #hebergements a {
         width: 45%;
     }
-
     /* Populaires */
     aside {
         width: 100%;
@@ -529,33 +603,35 @@ em {
     .description2 span {
         padding-top: 3em;
     }
-
-    /* Activités */
-    #activités {
+    /* activites */
+    #activites {
         margin-top: 3em;
     }
-    #activités h2 {
+    #activites h2 {
         margin-bottom: 5%;
     }
-    .activités {
+    .activites {
         display: flex;
         flex-direction: column;
     }
-    .activités img {
+    .activites img {
         height: 200px;
     }
-    .calanques, .vieuxport, .pomègues_frioul, .notre_dame_longchamp{
+    .calanques,
+    .vieuxport,
+    .pomegues_frioul,
+    .notre_dame_longchamp {
         width: 65%;
         margin-bottom: 3em;
         margin-left: 8em;
     }
-    .pomègues, .notre_dame {
+    .pomegues,
+    .notre_dame {
         margin-bottom: 3em;
     }
 }
 
-@media only screen and (min-width: 1400px)
-{
+@media only screen and (min-width: 1400px) {
     body {
         margin-left: auto;
         margin-right: auto;
