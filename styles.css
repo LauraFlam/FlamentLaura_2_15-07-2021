@@ -74,7 +74,7 @@ form {
 .bouton {
     background-color: #0065FC;
     color: white;
-    border: 0.1em #0065FC solid;
+    border: 0.1em #F2F2F2 solid;
     font-family: 'Raleway';
     font-weight: 600;
     padding: 0;
@@ -563,7 +563,10 @@ em {
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* Header */
     .menu1 {
-        margin-left: 15em;
+        margin-left: 10em;
+    }
+    .menu2 {
+        margin-left: -1em;
     }
     /* Filtres */
     .filtres {
@@ -622,8 +625,9 @@ em {
     .pomegues_frioul,
     .notre_dame_longchamp {
         width: 65%;
-        margin-bottom: 3em;
-        margin-left: 8em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
     .pomegues,
     .notre_dame {
