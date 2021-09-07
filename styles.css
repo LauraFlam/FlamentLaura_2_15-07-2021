@@ -100,7 +100,7 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 67%;
+    width: 82%;
     font-size: 1em;
 }
 
@@ -109,7 +109,7 @@ form {
 }
 
 .filtre_eco {
-    padding-right: 2.3em;
+    padding-right: 5em;
 }
 
 .filtres i {
@@ -483,11 +483,15 @@ em {
     .filtres2 {
         margin-left: -0.3em;
     }
+    .filtre_eco {
+        margin-right: -3em;
+    }
     .filtres3,
     .filtre_eco {
         margin-bottom: 1em;
         font-size: larger;
     }
+
     .info {
         margin: 2em 1em;
     }
@@ -570,7 +574,7 @@ em {
     }
     /* Filtres */
     .filtres {
-        width: 100%;
+        width: 80%;
         flex-wrap: wrap;
     }
     .filtre_eco {
@@ -632,6 +636,14 @@ em {
     .pomegues,
     .notre_dame {
         margin-bottom: 3em;
+    }
+}
+
+@media only screen and (min-width: 467px) and (max-width: 600px) {
+    .icone_loupe {
+        position: relative;
+        top: 2.8em;
+        left: -2.8em;
     }
 }
 
